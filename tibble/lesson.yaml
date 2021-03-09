@@ -193,8 +193,8 @@
 
 - Class: cmd_question
   Output: Add a column to the legs_tbl tibble called 'wings' and use c() to supply a vector of the number of wings each animal has. Remember that the animals in this tibble are cat, snake and bird.
-  CorrectAnswer: add_column(df, wings = c(0, 0, 2))
-  AnswerTests: omnitest(correctExpr='add_column(df, wings = c(0, 0, 2))')
+  CorrectAnswer: add_column(legs_tbl, wings = c(0, 0, 2))
+  AnswerTests: omnitest(correctExpr='add_column(legs_tbl, wings = c(0, 0, 2))')
   Hint: In the add_column() function you need to supply the tibble name (legs_tbl) first, followed by the new column name with a vector of values (i.e. 'wings = c(0, 0, 2)').
 
 - Class: text
